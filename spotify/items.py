@@ -11,6 +11,7 @@ class SpotifyItem(scrapy.Item):
     # name = scrapy.Field()
     song_title  = scrapy.Field()
     artist      = scrapy.Field()
-    week_of     = scrapy.Field()
+    date        = scrapy.Field()
     streams     = scrapy.Field()
     ranking     = scrapy.Field()
+    movement    = scrapy.Field()
