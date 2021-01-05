@@ -1,0 +1,12 @@
+This webscrapping project has a two-fold goal:
+1. To scrape the US daily streaming data from the Spotify Charts website
+2. To explore characteristics present in Spotify music consumption as well as in music releases from the artists
+
+Data:
+Data was scrapped from Spotify Charts (https://spotifycharts.com/regional/us/daily/latest) using Scrapy. Only the US Daily streaming data from 01/01/2017 to 10/30/2020 was scraped. The features scraped are:
+- song_title
+- artist
+- date
+- movement ('rect' for no movement, 'polygon' for upward or downward movement, 'circle' for new entry)
+- ranking
+- streams
